@@ -1,0 +1,37 @@
+
+body{
+    background-image: url('./gear.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.num{  
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color: red;
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+.hed{
+    color: red;
+    text-align: center;
+    text-decoration: dotted;
+  
+}
+.card{
+ text-align: center;
+ margin-top: 250px;
+ background-color: gray !important;
+ margin-left: 630px;
+ height: 250px;
+ width: 350px;
+}
+.card-body{
+    margin-bottom: 50px;
+}
