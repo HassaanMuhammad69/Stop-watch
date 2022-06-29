@@ -35,7 +35,7 @@ let reset = () => {
   msec = 0
   sec = 0
   min = 0
-  a.innerHTML = 0
-  b.innerHTML = 0
-  c.innerHTML = 0
+  a.innerHTML = msec < 10 ? `0${msec}` : msec
+  b.innerHTML = sec < 10 ? `0${sec}` : sec
+  c.innerHTML = min < 10 ? `0${min}` : min
 }
